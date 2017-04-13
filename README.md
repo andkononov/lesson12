@@ -26,7 +26,7 @@
 ![alt tag](https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/pics/certsigned.png)
 ## 6. Run puppet agent
  - puppet agent -t >>agentlog.txt
- Here is my [agentlog](https://github.com/hopetds/lesson12/blob/ikhamiakou/agentlog.txt)
+ - Here is my [agentlog](https://github.com/hopetds/lesson12/blob/ikhamiakou/agentlog.txt)
 ## 7. Verifying mysqldb:
 ![alt tag](https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/pics/showdatabases.png)
 
