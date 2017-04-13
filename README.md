@@ -12,12 +12,21 @@
  - Master(server)
  - Client(agent)
 ## 2. Add provision sections to install puppetserver on server node:
+https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/Vagrantfile
 ## 3. Provision executes the following scripts:
+ - master.sh:
+ https://github.com/hopetds/lesson12/blob/ikhamiakou/provision_scripts/master.sh
+ - and client.sh:
+ https://github.com/hopetds/lesson12/blob/ikhamiakou/provision_scripts/client.sh
 ## 4. Now VM's are almost ready:
-## 5. Lets check puppetserver cert list to find out if my client node is waiting for cert:
 
+## 5. Lets check puppetserver cert list to find out if my client node is waiting for cert:
+![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/solo.png)
 ## 6. Signing cert:
+![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/solo.png)
 ## 7. Run puppet agent
  - $puppet agent -t >>agentlog.txt
 ## 8. Verifying mysqldb:
+![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/solo.png)
+
 
