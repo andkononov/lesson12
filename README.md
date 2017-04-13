@@ -37,8 +37,6 @@ node 'client.minsk.epam.com' {
 }
 
 ```
-![alt tag](https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/pics/clientsh.png)
-
 - [client.sh](https://github.com/hopetds/lesson12/blob/ikhamiakou/provision_scripts/client.sh) is applying on client node:
 
 ---
