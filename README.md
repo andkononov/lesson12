@@ -18,16 +18,14 @@ https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/Vagrantfile
  https://github.com/hopetds/lesson12/blob/ikhamiakou/provision_scripts/master.sh
  - and client.sh:
  https://github.com/hopetds/lesson12/blob/ikhamiakou/provision_scripts/client.sh
-## 4. Now VM's are almost ready:
-
-## 5. Lets check puppetserver cert list to find out if my client node is waiting for cert:
+## 4. Lets check puppetserver cert list to find out if my client node is waiting for cert:
 ![alt tag](https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/pics/certlist.png)
-## 6. Signing cert:
+## 5. Signing cert:
 ![alt tag](https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/pics/certsigned.png)
-## 7. Run puppet agent
+## 6. Run puppet agent
  - $puppet agent -t >>agentlog.txt
  https://github.com/hopetds/lesson12/blob/ikhamiakou/agentlog.txt
-## 8. Verifying mysqldb:
+## 7. Verifying mysqldb:
 ![alt tag](https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/pics/showdatabases.png)
 
 
