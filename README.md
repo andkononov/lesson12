@@ -13,6 +13,7 @@
  - Client(agent)
 ## 2. Add provision sections to install puppetserver and puppet agent as well as [MySql](https://github.com/hopetds/lesson12/blob/ikhamiakou/provision_scripts/master.sh) module for puppet:
 https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/Vagrantfile
+![alt tag](https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/pics/vagrant.png)
 ## 3. Provision executes the following scripts:
 - [master.sh]( https://github.com/hopetds/lesson12/blob/ikhamiakou/provision_scripts/master.sh)
 
