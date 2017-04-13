@@ -1,0 +1,7 @@
+[0;32mInfo: Using configured environment 'production'[0m
+[0;32mInfo: Retrieving pluginfacts[0m
+[0;32mInfo: Retrieving plugin[0m
+[0;32mInfo: Loading facts[0m
+[0;32mInfo: Caching catalog for node.loc[0m
+[0;32mInfo: Applying configuration version '1492099750'[0m
+[mNotice: Applied catalog in 0.34 seconds[0m
