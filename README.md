@@ -5,7 +5,6 @@
  - Master(server)
  - Client(agent)
 ## 2. Add provision sections to install puppetserver and puppet agent as well as [MySql](https://github.com/hopetds/lesson12/blob/ikhamiakou/provision_scripts/master.sh) module for puppet:
-https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/Vagrantfile
 ![alt tag](https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/pics/vagrant.png)
 ## 3. Provision executes the following scripts:
 - [master.sh]( https://github.com/hopetds/lesson12/blob/ikhamiakou/provision_scripts/master.sh)
@@ -26,8 +25,8 @@ https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/Vagrantfile
 ## 5. Signing cert:
 ![alt tag](https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/pics/certsigned.png)
 ## 6. Run puppet agent
- - $puppet agent -t >>agentlog.txt
- https://github.com/hopetds/lesson12/blob/ikhamiakou/agentlog.txt
+ - puppet agent -t >>agentlog.txt
+ Here is my [agentlog](https://github.com/hopetds/lesson12/blob/ikhamiakou/agentlog.txt)
 ## 7. Verifying mysqldb:
 ![alt tag](https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/pics/showdatabases.png)
 
