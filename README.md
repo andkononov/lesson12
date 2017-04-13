@@ -18,9 +18,7 @@ https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/Vagrantfile
 ---
 
 ![alt tag](https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/pics/clientsh.png)
-
-
-## 4. Run vagran and ssh to both nodes:
+## 4. Run vagrant up. Wait for provisioning and then ssh to both nodes:
  - vagrant ssh master
  - vagrant ssh client
 ## Now lets check puppetserver cert list to find out if my client node is waiting for cert:
