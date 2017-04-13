@@ -1,1 +1,1 @@
-# lesson12
+# lesson12 (Heorhi Vysotski)
