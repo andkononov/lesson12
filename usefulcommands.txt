@@ -1,0 +1,39 @@
+For Server:
+
+ sudo rpm -Uvh https://yum.puppetlabs.com/puppetlabs-release-pc1-el-7.noarch.rpm
+ 
+ yum install -y puppetserver
+ 
+ systemctl start puppetserver
+ 
+ systemctl status puppetserver
+
+ sudo /opt/puppetlabs/bin/puppet cert list
+ 
+ puppet cert list -all
+ 
+For Client:
+
+ sudo rpm -Uvh https://yum.puppetlabs.com/puppetlabs-release-pc1-el-7.noarch.rpm
+ 
+ sudo yum install puppet-agent
+ 
+ vi /etc/puppetlabs/puppet/puppet.conf 
+ 
+ vi /etc/hosts
+ 
+ sudo /opt/puppetlabs/bin/puppet agent --test
+
+For Database:
+
+ puppet module install puppetlabs-mysql
+ 
+ vi /etc/puppetlabs/code/environments/production/manifests/site.pp 
+ 
+ sudo /opt/puppetlabs/bin/puppet agent --test
+ 
+ show databases;
+ 
+ select user from mysql.user;
+ 
+ 
