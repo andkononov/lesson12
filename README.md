@@ -14,8 +14,7 @@
 ## 2. Add provision sections to install puppetserver on server node:
 https://raw.githubusercontent.com/hopetds/lesson12/ikhamiakou/Vagrantfile
 ## 3. Provision executes the following scripts:
- - master.sh:
- https://github.com/hopetds/lesson12/blob/ikhamiakou/provision_scripts/master.sh
+- [master.sh]( https://github.com/hopetds/lesson12/blob/ikhamiakou/provision_scripts/master.sh)
  - and client.sh:
  https://github.com/hopetds/lesson12/blob/ikhamiakou/provision_scripts/client.sh
 ## 4. Lets check puppetserver cert list to find out if my client node is waiting for cert:
