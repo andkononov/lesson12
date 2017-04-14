@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
 	  server.memory = 2560
 	end
 	
-	serv.vm.provision "shell", inline: <<-SHELL
+	srv.vm.provision "shell", inline: <<-SHELL
 	sudo rpm -Uvh https://yum.puppetlabs.com/puppetlabs-release-pc1-el-7.noarch.rpm
 	sudo yum install -y puppetserver
         echo "192.168.33.205 puppet-n1-srv.epam.com" >> /etc/hosts
