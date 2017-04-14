@@ -1,0 +1,23 @@
+MariaDB [(none)]> 
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| test               |
+| test_mdb           |
++--------------------+
+5 rows in set (0.00 sec)
+
+MariaDB [(none)]> SHOW GRANTS FOR test_user@localhost;
++------------------------------------------------------------------------------------------------------------------+
+| Grants for test_user@localhost                                                                                   |
++------------------------------------------------------------------------------------------------------------------+
+| GRANT USAGE ON *.* TO 'test_user'@'localhost' IDENTIFIED BY PASSWORD '*D3CBE489A6F7413ED7455B7CEB2FC4C5DF3E9BEB' |
+| GRANT ALL PRIVILEGES ON `test_mdb`.* TO 'test_user'@'localhost'                                                  |
++------------------------------------------------------------------------------------------------------------------+
+2 rows in set (0.00 sec)
+
+MariaDB [(none)]> 
