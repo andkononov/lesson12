@@ -1,0 +1,14 @@
+[root@puppet_agent1 vagrant]# puppet agent --test
+Info: Using configured environment 'production'
+Info: Retrieving pluginfacts
+Info: Retrieving plugin
+Info: Loading facts
+Info: Caching catalog for puppet_agent1.localdomain
+Info: Applying configuration version '1492128191'
+Notice: /Stage[main]/Mysql::Server::Config/File[mysql-config-file]/ensure: defined content as '{md5}4b16ed3375eaa96a2bc1b7aa00c5dd46'
+Notice: /Stage[main]/Mysql::Server::Install/Package[mysql-server]/ensure: created
+Notice: /Stage[main]/Mysql::Server::Service/Service[mysqld]/ensure: ensure changed 'stopped' to 'running'
+Info: /Stage[main]/Mysql::Server::Service/Service[mysqld]: Unscheduling refresh on Service[mysqld]
+Notice: /Stage[main]/Main/Node[puppet_agent1]/Mysql::Db[test_mdb]/Mysql_user[test_user@localhost]/password_hash: password_hash changed '*2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19' to '*D3CBE489A6F7413ED7455B7CEB2FC4C5DF3E9BEB'
+Notice: Applied catalog in 9.11 seconds
+[root@puppet_agent1 vagrant]# 
